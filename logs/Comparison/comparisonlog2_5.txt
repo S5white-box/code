@@ -1,0 +1,42 @@
+   -----  Stats for l=2 and s=5  -----   
+
+S5_2_5 AES stats:
+AES_S5(OptBooleanCircuit): 
+   |   128 inputs,  128 outputs, 625883 nodes
+   | XOR:466974 (74.61%), AND:152843 (24.42%), NOT:5938 (0.95%), INPUT:128 (0.02%)
+20.013526 times more than the original AES
+
+ISW2oDS5 AES stats:
+AES_DumShuf_ISW(OptBooleanCircuit): 
+   |   128 inputs,  128 outputs,1646285 nodes
+   | XOR:1168385 (70.97%), AND:449023 (27.27%), NOT:28749 (1.75%), INPUT:128 (0.01%)
+52.642375 times more than the original AES
+
+DS5oISW2 AES stats:
+AES_ISW_DumShuf(OptBooleanCircuit): 
+   |   128 inputs,  128 outputs,1765085 nodes
+   | XOR:1331738 (75.45%), AND:403158 (22.84%), NOT:30061 (1.70%), INPUT:128 (0.01%)
+56.441179 times more than the original AES
+	Command being timed: "python3 ComparisonS5.py -l 2 -s 5"
+	User time (seconds): 223.29
+	System time (seconds): 2.53
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:45.84
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3760744
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1629846
+	Voluntary context switches: 1
+	Involuntary context switches: 237
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

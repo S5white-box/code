@@ -1,0 +1,12 @@
+>proc S5_2_4_AND added
+>Checking SNI for S5_2_4_AND: (no transition,no glitch)
+Start checking of ki = 0, ko = 1
+005 tuples to check
+5  tuples checked
+Checking of ki = 0, ko = 1 done
+Start checking of ki = 1, ko = 0
+058 tuples to check
+58  tuples checked
+Checking of ki = 1, ko = 0 done
+S5_2_4_AND is SNI
+>Bye bye!

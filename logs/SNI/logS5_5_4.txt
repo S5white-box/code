@@ -1,0 +1,6 @@
+Performing the test on S5_5_4
+S5 AND gadget computes x&y correctly for 100 random inputs
+Number of XORs: 98
+Number of ANDs: 52
+51.467 M tuples checked over 52.602 M in 2.395
+S5_5_4_AND is SNI
