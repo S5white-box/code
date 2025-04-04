@@ -1,5 +1,5 @@
-S5: Combining white-box countermeasures to withstand automated attacks
-======================================================================
+S5: Combining white-box countermeasures to resist state-of-the-art attacks
+==========================================================================
 
 **Requirements:**
 
